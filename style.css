@@ -89,3 +89,7 @@
         #25283b22 100px 101px
     );
 }
+
+footer{
+    background-color: var(--second-color);
+}
