@@ -8,6 +8,9 @@ Este projeto apresenta uma página HTML para o aplicativo de delivery Dolce Fari
 ### Objetivo 
 O objetivo deste projeto é criar uma página informativa e visualmente atraente que apresente o aplicativo Dolce Farina, promovendo suas funcionalidades e facilitando o acesso às informações de contato e redes sociais.
 
+## GitPages Link
+https://isadorameneghetti.github.io/Html-Css-Landing-Page/
+
 ## Funcionalidades
 - **Página Inicial**: Apresenta uma visão geral do aplicativo e suas principais vantagens.
 - **Sobre o Aplicativo**: Detalhes sobre as funcionalidades, a proposta e os benefícios para o usuário.
