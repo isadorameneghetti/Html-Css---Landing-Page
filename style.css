@@ -5,6 +5,7 @@
     --second-color: #CBDCEB;
     --dark-second-color: #133E87;
     --text-color: #fcfaee;
+    --second-text-color: #333;
     --shadow-color: rgba(255, 255, 255, 0.2);
     --black-shadow: rgba(0, 0, 0, 0.2);
     --darker-shadow-color: rgba(255, 255, 255, 0.8);
@@ -13,12 +14,12 @@
 
 }
 
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 
 #start {
