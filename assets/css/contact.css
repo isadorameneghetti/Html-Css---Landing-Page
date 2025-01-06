@@ -61,3 +61,33 @@ textarea{
     border: 2px solid var(--main-color);
     background-color: var(--text-color);
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .contact-box {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .left {
+        height: 200px;
+    }
+
+    .right {
+        padding: 20px;
+    }
+
+    .field {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    textarea {
+        min-height: 100px;
+    }
+}

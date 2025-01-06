@@ -90,3 +90,44 @@
     margin: 0px 5px;
 }
 
+@media (max-width: 768px) {
+    .footerContainer {
+        padding: 40px 15px 10px;
+    }
+
+    .socialIcons a {
+        margin: 5px;
+    }
+
+    .email {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .email p {
+        font-size: 1em;
+        margin: 5px;
+    }
+
+    .footerNav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerNav ul li a {
+        margin: 10px;
+        font-size: 1em;
+    }
+
+    .footerBottom {
+        padding: 10px;
+    }
+
+    .footerBottom p {
+        font-size: 0.9em;
+    }
+
+    .designer {
+        font-size: 0.8em;
+    }
+}

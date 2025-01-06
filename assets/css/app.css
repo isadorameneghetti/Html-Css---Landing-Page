@@ -56,3 +56,44 @@
     color: var(--second-color);
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    .wrapper {
+        margin-top: 400px;
+    }
+
+    .wrapper h1 {
+        font-size: 2em; 
+        margin-bottom: 10px; 
+    }
+
+    .wrapper h3 {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .content-box {
+        width: 100%; 
+        justify-content: center; 
+        margin-top: 20px; 
+    }
+
+    .card {
+        width: 90%; 
+        margin: 10px auto;
+    }
+
+    .card i {
+        margin: 20px; 
+        font-size: 36px; 
+    }
+
+    .card h2 {
+        font-size: 1.5em; 
+        margin-bottom: 15px; 
+    }
+
+    .card p {
+        font-size: 0.9em; 
+    }
+}

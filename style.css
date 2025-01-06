@@ -94,3 +94,22 @@
 footer{
     background-color: var(--second-color);
 }
+
+@media (max-width: 768px) {
+    * {
+        font-size: 14px; /* Reduzir o tamanho da fonte */
+    }
+
+    #start, #app, #feat, #ava, #contact {
+        min-height: auto; /* Remover altura mínima fixa */
+        padding: 20px; /* Adicionar padding para melhor espaçamento */
+    }
+
+    #start {
+        background-size: contain; /* Ajustar o tamanho da imagem de fundo */
+    }
+
+    #app, #feat, #contact {
+        flex-direction: column; /* Garantir que o conteúdo fique em coluna */
+    }
+}
